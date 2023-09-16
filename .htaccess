@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+ 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(.*)$ ./index.php?viewpage=$1
+
+ErrorDocument 404 /index.php?viewpage=404

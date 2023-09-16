@@ -1,0 +1,250 @@
+[
+    {
+        "name": "site_title",
+        "type": "text",
+        "category": "general",
+        "label": "Site title",
+        "tooltip": "",
+        "value": "Cloud Arcade"
+    },
+    {
+        "name": "site_description",
+        "type": "text",
+        "category": "general",
+        "label": "Site description",
+        "tooltip": "",
+        "value": "Play HTML5 Games"
+    },
+    {
+        "name": "meta_description",
+        "type": "text",
+        "category": "general",
+        "label": "Meta description",
+        "tooltip": "",
+        "value": "Play HTML5 Games for Free"
+    },
+    {
+        "name": "site_logo",
+        "type": "url",
+        "category": "general",
+        "label": "Site logo",
+        "tooltip": "",
+        "value": "images\/cloudarcade-logo.png"
+    },
+    {
+        "name": "language",
+        "type": "text",
+        "category": "general",
+        "label": "Language",
+        "tooltip": "",
+        "value": "en"
+    },
+    {
+        "name": "purchase_code",
+        "type": "text",
+        "category": "general",
+        "label": "Purchase code",
+        "tooltip": "",
+        "value": ""
+    },
+    {
+        "name": "theme_name",
+        "type": "text",
+        "category": "",
+        "label": "Theme name",
+        "tooltip": "",
+        "value": "default"
+    },
+    {
+        "name": "import_thumb",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Save\/import thumbnails",
+        "tooltip": "Save game thumbnails from fetch and remote games to local server. images also compressed and can reduce file size up to 80%. Page will be loaded more quickly.",
+        "value": 0
+    },
+    {
+        "name": "small_thumb",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Small thumbnails",
+        "tooltip": "Generate small thumbnail (160x160 px) from thumb_2. Can be used to replace thumb_2 for faster page load, since thumb_2 have 512px size. *Require active import thumbnails.",
+        "value": 0
+    },
+    {
+        "name": "webp_thumbnail",
+        "type": "bool",
+        "category": "advanced",
+        "label": "WEBP thumbnails",
+        "tooltip": "Webp is a next gen image format for web. Reduce file size up to 80% compared to regular PNG or JPG and also SEO friendly. *Require active import thumbnails.",
+        "value": 0
+    },
+    {
+        "name": "custom_slug",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Custom slug",
+        "tooltip": "Let you set the slug of games, posts and pages url manually.",
+        "value": 0
+    },
+    {
+        "name": "pretty_url",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Pretty url",
+        "tooltip": "(Recommended) SEO Friendly URL. If you're using Nginx, you need to update Rewrite Rules before activating Pretty URL.",
+        "value": 1
+    },
+    {
+        "name": "unicode_slug",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Unicode slug",
+        "tooltip": "Use non-latin characters (Arabic, Russian, Chinese.etc) for slug or url. There's no guarantee it will work flawlessly without any compatibility issues.",
+        "value": 0
+    },
+    {
+        "name": "use_https",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Use HTTPS",
+        "tooltip": "If your site running over https, active this.",
+        "value": 0
+    },
+    {
+        "name": "use_www",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Use WWW",
+        "tooltip": "Use WWW url, all permalink will be www.your-domain.com",
+        "value": 0
+    },
+    {
+        "name": "auto_sitemap",
+        "type": "bool",
+        "category": "advanced",
+        "label": "Auto sitemap",
+        "tooltip": "Automatically update sitemap after add or remove content.",
+        "value": 0
+    },
+    {
+        "name": "comments",
+        "type": "bool",
+        "category": "user",
+        "label": "Comments",
+        "tooltip": "Allow user to post a comment",
+        "value": 1
+    },
+    {
+        "name": "upload_avatar",
+        "type": "bool",
+        "category": "user",
+        "label": "Upload avatar",
+        "tooltip": "Allow registered user to upload their avatar",
+        "value": 0
+    },
+    {
+        "name": "user_register",
+        "type": "bool",
+        "category": "user",
+        "label": "User\/player registration",
+        "tooltip": "",
+        "value": 1
+    },
+    {
+        "name": "custom_path",
+        "type": "textarea",
+        "category": "",
+        "label": "Custom path",
+        "tooltip": "",
+        "value": ""
+    },
+    {
+        "name": "show_login",
+        "type": "bool",
+        "category": "user",
+        "label": "Show login",
+        "tooltip": "Show login link in the theme navigation menu",
+        "value": 1
+    },
+    {
+        "name": "moderate_comment",
+        "type": "bool",
+        "category": "user",
+        "label": "Moderate comment",
+        "tooltip": "All user comments must be approved before availabe for public",
+        "value": 0
+    },
+    {
+        "name": "captcha",
+        "type": "bool",
+        "category": "user",
+        "label": "CAPTCHA",
+        "tooltip": "Show CAPTCHA on registration page.",
+        "value": 1
+    },
+    {
+        "name": "splash",
+        "type": "bool",
+        "category": "other",
+        "label": "Splash Screen (Self uploaded)",
+        "tooltip": "Show splash screen before game loaded. Only work for uploaded games.",
+        "value": 0
+    },
+    {
+        "name": "show_ad_on_splash",
+        "type": "bool",
+        "category": "other",
+        "label": "Show Ad On Splash",
+        "tooltip": "",
+        "value": 0
+    },
+    {
+        "name": "trailing_slash",
+        "type": "bool",
+        "category": "other",
+        "label": "Trailing slash",
+        "tooltip": "A trailing slash is a forward slash (\/) at the end of a URL. If activated, your url will be domain.com\/game\/title\/",
+        "value": 0
+    },
+    {
+        "name": "lang_code_in_url",
+        "type": "bool",
+        "category": "other",
+        "label": "Language code in URL",
+        "tooltip": "When activated, your URL will contain a language ID, such as domain.com\/en\/game\/title for English or domain.com\/fr\/game\/title for French. This can be utilized for multilingual sites.",
+        "value": 0
+    },
+    {
+        "name": "disable_rtl",
+        "type": "bool",
+        "category": "other",
+        "label": "Disable RTL",
+        "tooltip": "If your site layout breaks after switching to an RTL (Right to Left) language, activate this option to switch it back to LTR.",
+        "value": 0
+    },
+    {
+        "name": "search_results_per_page",
+        "type": "number",
+        "category": "listings",
+        "label": "Search",
+        "tooltip": "",
+        "value": 36
+    },
+    {
+        "name": "category_results_per_page",
+        "type": "number",
+        "category": "listings",
+        "label": "Category",
+        "tooltip": "",
+        "value": 36
+    },
+    {
+        "name": "post_results_per_page",
+        "type": "number",
+        "category": "listings",
+        "label": "Posts",
+        "tooltip": "",
+        "value": 10
+    }
+]

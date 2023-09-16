@@ -1,0 +1,137 @@
+.ad_overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.ad_popup {
+  max-width: 600px;
+  width: 80%;
+  max-height: 300px;
+  height: 80%;
+  padding: 20px;
+  position: relative;
+  background: #fff;
+  margin: 20px auto;
+}
+
+#ad_close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #000;
+}
+.popbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* z-index: 1000000; */
+}
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,.7);
+}
+.popbox-close-button {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  line-height: 28px;
+  text-align: center;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  box-shadow: 0 -1px 1px 0 rgb(0 0 0 / 20%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+}
+.popbox-close-button:after {
+  display: inline-block;
+  content: "\00d7";
+}
+.pop-content {
+    /* width: 850px; */
+    /* height: 450px; */
+    /* display: block; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+.banner-content {
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 / 50%);
+}
+#ad-delay {
+    color: #fff;
+    font-size: 20px;
+}
+.ad-loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* ADSENSE */
+.pop-content #content {
+  width: 100vw;
+  height: 100vh;
+}
+#video-container {
+  position: relative;
+  /* forces the container to match a 16x9 aspect ratio */
+  /* replace with 75% for a 4:3 aspect ratio, if needed */
+  padding-bottom: 56.25%;
+}
+
+#video-element {
+  /* forces the contents to fill the container */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#ad-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#ca-ads {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
